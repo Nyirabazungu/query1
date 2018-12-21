@@ -16,7 +16,8 @@ body{
     box-shadow: 2px 2px 2px gray;
     text-align: center; 
   }
-  h3{
-    text-decoration-line: underline;
-    margin-inline-start: 1px;
+  #results{
+    box-shadow: 3px 3px 4px gray;
+
   }
+
