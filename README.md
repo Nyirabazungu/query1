@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Quiz BOARD
 ##Description
  this quiz you must select collect answer
@@ -23,3 +24,6 @@
 ## lisence &copyright
 
 MTI, Copyright & Valentine,2018
+=======
+# query1
+>>>>>>> 4eb1c0013d5410aeeecd2e0a3517cc04a64eeb02
