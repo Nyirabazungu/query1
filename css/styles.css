@@ -1,4 +1,22 @@
 body{
   text-align: left;
   border-style: solid;
+  border:3 3 3 3;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 40px;
+  margin-block-end: 40px;
+  }
+  h1{
+    color: rgb(38, 59, 52);
+    text-shadow:3px 3px rgb(142, 142, 175);
+
+  }
+  .header{
+    box-shadow: 2px 2px 2px gray;
+    text-align: center; 
+  }
+  h3{
+    text-decoration-line: underline;
+    margin-inline-start: 1px;
   }
