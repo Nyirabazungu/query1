@@ -8,13 +8,9 @@ body{
   margin-block-end: 40px;
   }
   h1{
-    color: rgb(38, 59, 52);
+    color: blue;
 
   }
-  .header{
-    box-shadow: 2px 2px 2px gray;
-    text-align:center;
-    background-color: aquamarine;
-  }
+  
 
 
