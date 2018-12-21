@@ -14,6 +14,8 @@ body{
   }
   .header{
     box-shadow: 2px 2px 2px gray;
-    text-align: end;
+    text-align:center;
+    background-color: aquamarine;
   }
+
 
