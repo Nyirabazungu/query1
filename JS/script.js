@@ -39,7 +39,8 @@ $(document).ready(function (){
                     marks = marks+5;
                     }
                 })
-          alert(marks)
+                
+          alert("your marks:"+ marks)
     event.preventDefault();
    });
    });

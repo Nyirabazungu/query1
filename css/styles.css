@@ -6,10 +6,11 @@ body{
   margin-right: 40px;
   margin-top: 40px;
   margin-block-end: 40px;
+  margin-inline-end: 2em;
   }
   h1{
-    color: blue;
-    box-shadow: 3px 3px 3px gray;
+    color:gree;
+    box-shadow: 3px 3px 3px  gray;
     text-align: center;
 
   }
@@ -17,6 +18,11 @@ body{
     box-shadow: 3px 3px 3px grey;
     text-align: right;
     background-color: antiquewhite;
+    padding-block-end:2em;
+    margin-block-end:1%;
+  }
+  #result{
+    color:blue;
   }
   
 
