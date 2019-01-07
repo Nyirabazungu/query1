@@ -18,7 +18,6 @@ body{
     box-shadow: 3px 3px 3px grey;
     text-align: right;
     background-color: antiquewhite;
-    padding-block-end:2em;
     margin-block-end:1%;
   }
   #result{
