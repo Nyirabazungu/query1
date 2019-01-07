@@ -51,7 +51,13 @@ h5{
   color:rgb(29, 29, 37);
 }
 .first{
-  box-shadow: 3px 3px 3px grey;
+  text-align: left;
+  border-style: solid;
+  border:3 3 3 3;
+  margin-left: 30px;
+  margin-right: 70px;
+  margin-inline-end: 80%;
+ 
 }
 
 
