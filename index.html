@@ -6,58 +6,29 @@
     <title>quiz board</title>
   </head>
   <boby>
-     <div class="container">
-         <h1>Quiz of JavaScript</h1> 
-         <h3>Instruction</h3>
-         <h4>choose right answer</h4><br>
-           <div id="blanks">
-            <form>
-          <div class="form group">
-             <p>Which isn't JavaScript Data type?<br>
-            <input type="radio" name="q1" value="a" required >a. A variable <br>
-            <input type="radio" name="q1" value="b" required>b. A string <br>
-            <input type="radio" name="q1" value="c" required>c. A The Null<br>
-            <input type="radio" name="q1" value="d" required>d. The Undefined<br>
-            <input type="radio" name="q1" value="e" required> e. A number <br>
-            <input type="radio" name="q1" value="f" required>f. none <br>
-             </p>
+    <form action="action_page.php">
+         <div class="container">
+           <h1>Create account</h1>
+           <p>Please fill in this form to create an account.</p>
+           <hr>
+       
+           <label for="email"><b>Email</b></label>
+           <input type="text" placeholder="Enter Email" name="email" required>
+       
+           <label for="psw"><b>Password</b></label>
+           <input type="password" placeholder="Enter Password" name="psw" required>
+       
+           <label for="psw-repeat"><b>Repeat Password</b></label>
+           <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+           <hr>
          </div>
-      <div class="form group">
-         <p>Which data type has only two values <strong>TRUE</strong> and <strong>FALSE</stron><br>
-            <input type="radio" name="q2" value="a" required>a. A boolean<br>
-            <input type="radio" name="q2" value="b"required >b. A string <br>
-            <input type="radio" name="q2" value="c" required>c. A number <br> 
-         </p>
+          <div class="container signin">
+           <p>Already have an account? <a href="index1.html">Sign in</a>.</p>
          </div>
-         <div class="form group">
-            <p>Which box displays only one button which is the <strong>OK</strong>.<br>
-            <input type="radio" name="q3" value="a" required>a. A lert<br>
-            <input type="radio" name="q3" value="b" required>b. A confirmation<br>
-         </p>
-         </div>
-       <div class="form group">
-            <p>Which box displays two buttons namely <strong>OK</strong> and <strong>CANCEL</strong>.<br>
-          <input type="radio" name="q4" value="a" required>A confirmation<br>
-          <input type="radio" name="q4" value="b" required>A Prompt<br>
-          <input type="radio" name="q4" value="c" required>A lert<br>
-          <input type="radio" name="q4" value="c"required >All of the above<br>
-         </p>
-           </div>
-           <div id="result">
-           <button type="submit" class="btn">Submit</button> 
-        </div>
-        <div class ="Output">
-        </div>
-         <footer>
-         <div id="last">
-            copyright &copy; 2018 Valentine
-         </div>
-         </footer>
-         <form>
-         </div>
-      </div>
-      <script src="JS/jquery-3.3.1.min.js"></script>
-      <script src="./JS/script.js"></script>
-   </body>
-</html>
-    
+</form>
+<script src="JS/jquery-3.3.1.min.js"></script>
+          <script src="./JS/script.js"></script>
+       </body>
+    </html>
+        
+        
