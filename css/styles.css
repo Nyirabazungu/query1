@@ -41,6 +41,17 @@ body{
     background-color: antiquewhite;
     margin-block-end:1%;
 }
-  
+h3{
+  margin-block-start: 1em;
+  margin-left: 1em;
+  color:blue;
+  text-decoration-line: underline;
+}
+h5{
+  color:rgb(29, 29, 37);
+}
+.first{
+  box-shadow: 3px 3px 3px grey;
+}
 
 
